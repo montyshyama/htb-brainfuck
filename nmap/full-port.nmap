@@ -1,0 +1,16 @@
+# Nmap 7.70 scan initiated Tue Jan 21 04:58:21 2020 as: nmap -p- -oA nmap/full-port -vvv --max-retries=0 10.10.10.17
+Warning: 10.10.10.17 giving up on port because retransmission cap hit (0).
+Nmap scan report for brainfuck.htb (10.10.10.17)
+Host is up, received echo-reply ttl 63 (0.29s latency).
+Scanned at 2020-01-21 04:58:21 IST for 250s
+Not shown: 65530 filtered ports
+Reason: 65530 no-responses
+PORT    STATE SERVICE REASON
+22/tcp  open  ssh     syn-ack ttl 63
+25/tcp  open  smtp    syn-ack ttl 63
+110/tcp open  pop3    syn-ack ttl 63
+143/tcp open  imap    syn-ack ttl 63
+443/tcp open  https   syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jan 21 05:02:31 2020 -- 1 IP address (1 host up) scanned in 250.32 seconds
